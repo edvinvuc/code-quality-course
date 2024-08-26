@@ -11,10 +11,6 @@ namespace Tasks.Task2.Reference;
 // 1. Reusable functions - Less code - less that go wrong
 // 2. Is immutable - easy to reason about, more linear written.
 // 3. Linq give easily type signature in > out -> easy to follow
-//
-// Some learning curve to fully use its potential. But worth it.
-// Linq also has a sql like language alternative as well for those
-// who like that better.
 
 record ObjectType1(int Id, string Name);
 record ObjectType2(int Id, string Title);

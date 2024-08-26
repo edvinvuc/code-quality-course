@@ -18,9 +18,6 @@ namespace Tasks.Task4;
 // 1. Early return with ifs instead of nested if else.
 // 2. Good variable names that explains the intention. Better than a lot of comments - or none.
 // 3. Reuse code
-//
-// SOLID:
-// 1. Single responsibility pattern
 
 class ShoppingCart
 {
