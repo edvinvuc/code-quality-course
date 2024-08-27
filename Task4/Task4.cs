@@ -8,10 +8,9 @@ namespace Tasks.Task4;
 // 3. All data structures and functions needs to be immutable
 // 4. All functions should have both input and output values
 // 5. All pure functions should have no side effects (outside mutations, file read/write, api call in/out)
-// 6. All unpure in functions needs to be validated for data structure
-// 7. Use linq for handling data logic
-// 8. Use discriminated unions if needsed to be specific about data and reduce nulls.
-// 9. Make all functions as small as possible (think single responsibility. And build them ontop of each other.
+// 6. Use linq for handling data logic
+// 7. Use discriminated unions if needed to be specific about data and reduce nulls.
+// 8. Make all functions as small as possible (think single responsibility). And build them ontop of each other.
 // Easier to reson about, reuse, test and error handle.
 //
 // Clean code:
