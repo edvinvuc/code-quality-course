@@ -34,10 +34,11 @@ public class UnitTest
         var item1 = new ItemModel("Laptop", 1000, 1);
         var item2 = new ItemModel("Mouse", 50, 2);
         var item3 = new ItemModel("Keyboard", 100, 1);
+
         var cartItems = new List<ItemModel> { item1, item2, item3 };
         var cartPricing = new PricingModel(25);
-
         var cart = new CartModel(cartItems, cartPricing);
+
         var costSummary = CartHandler.CalculateCostSummary(cart);
 
         CartPrinter.PrintShoppingCart(cart, costSummary);

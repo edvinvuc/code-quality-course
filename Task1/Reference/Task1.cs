@@ -50,8 +50,8 @@ public class UnitTest
             new MyObject(3)
         };
 
-        var incrementedList = list.Select(obj => obj with { Number = obj.Number + 2 }).ToList();
-
-        incrementedList.ForEach(Console.WriteLine);
+        list.Select(obj => obj.Number + 2)
+            .ToList()
+            .ForEach(Console.WriteLine);
     }
 }
